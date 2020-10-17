@@ -6,7 +6,7 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../3818
+  - cmake ../381903_Lebedev_Lab_2_3
   - make -j
   - ./test/MP2_TESTS
 notifications:
